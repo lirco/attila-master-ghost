@@ -42,7 +42,7 @@ module.exports = function(grunt) {
                     sourceMaps: true
                 },
                 files: {
-                    'assets/<%=  config.cssTargetDir %>/style.css': '<%=  config.cssSrcDir %>/style.scss'
+                    'assets/<%=  config.cssTargetDir %>/style_main.css': '<%=  config.cssSrcDir %>/style_main.scss'
                 }
             },
             dist: {
@@ -50,7 +50,7 @@ module.exports = function(grunt) {
                     outputStyle: 'compressed'
                 },
                 files: {
-                    'assets/<%=  config.cssTargetDir %>/style.css': '<%=  config.cssSrcDir %>/style.scss'
+                    'assets/<%=  config.cssTargetDir %>/style_main.css': '<%=  config.cssSrcDir %>/style_main.scss'
                 }
             }
         },
